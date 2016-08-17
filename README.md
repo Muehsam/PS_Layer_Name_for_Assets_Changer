@@ -13,24 +13,25 @@ Android:
 xxhdpi, xhdpi, hdpi, mdpi, ldpi
 
 #Structur:
--
- xcode
- 	foo@3x.png 
- 	foo@2x.png
- 	foo.png
- xxhdpi
- 	foo.png
- xhdpi
- 	foo.png
- hdpi
- 	foo.png
- mdpi
- 	foo.png
- ldpi
- 	foo.png
+
+* xcode
+ 	* foo@3x.png 
+ 	* foo@2x.png
+ 	* foo.png
+ * xxhdpi
+ 	* foo.png
+ * xhdpi
+ 	* foo.png
+ * hdpi
+ 	* foo.png
+ * mdpi
+ 	* foo.png
+ * ldpi
+ 	* foo.png
 
 Enable File/Generate Assets and Photoshop will do the rest for you.
 
-See: Generate image assets from layers https://helpx.adobe.com/photoshop/using/generate-assets-layers.html
+#See: 
+Generate image assets from layers https://helpx.adobe.com/photoshop/using/generate-assets-layers.html
 
 
