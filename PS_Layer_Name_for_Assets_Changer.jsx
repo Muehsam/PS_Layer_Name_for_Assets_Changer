@@ -23,11 +23,11 @@ for (var i = 0; i < doc.layers.length; i++)
           				'xcode/' + currentLayerName + '@3x.png, ' +
           				'66.67% xcode/' + pre + currentLayerName + '@2x.png, ' +
           				'33.33% xcode/' + pre + currentLayerName + '.png ,' +
-          				'xxhdpi/' + pre + currentLayerName + '.png ,' +
-						'66.67% xhdpi/' + pre + currentLayerName + '.png ,' +
-						'50% hdpi/' + pre + currentLayerName + '.png ,' +
-						'33.33% mdpi/' + pre + currentLayerName + '.png ,' +
-						'25% ldpi/' + pre + currentLayerName + '.png';
+          				'drawable-xxhdpi/' + pre + currentLayerName + '.png ,' +
+						'66.67% drawable-xhdpi/' + pre + currentLayerName + '.png ,' +
+						'50% drawable-hdpi/' + pre + currentLayerName + '.png ,' +
+						'33.33% drawable-mdpi/' + pre + currentLayerName + '.png ,' +
+						'25% drawable/' + pre + currentLayerName + '.png';
                               '25% ' + pre + currentLayerName + '.png';
 
  		//alert(newLayerName);
