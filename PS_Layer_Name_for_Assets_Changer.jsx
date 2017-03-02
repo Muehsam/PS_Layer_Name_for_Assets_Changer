@@ -7,14 +7,13 @@
  *  http://www.wtfpl.net/about/ 
  */
 
-var doc = app.activeDocument;  
+var doc = app.activeDocument.activeLayer;  
 
 for (var i = 0; i < doc.layers.length; i++) 
-{
- 
+{			
           var currentLayerName = doc.layers[i].name;
 
-          //currentLayerName = currentLayerName.toLowerCase();
+          currentLayerName = currentLayerName.toLowerCase();
 
           newLayerName = currentLayerName + '.png, ' +
           				'xcode/' + currentLayerName + '@3x.png, ' +
@@ -24,9 +23,7 @@ for (var i = 0; i < doc.layers.length; i++)
 						'66.67% xhdpi/' + currentLayerName + '.png ,' +
 						'50% hdpi/' + currentLayerName + '.png ,' +
 						'33.33% mdpi/' + currentLayerName + '.png ,' +
-						'25% ldpi/' + currentLayerName + '.png';
-
- 		//alert(newLayerName);
+						'25% ldpi/' + currentLayerName + '.png'; 		
 
           doc.layers[i].name = newLayerName;
 }
