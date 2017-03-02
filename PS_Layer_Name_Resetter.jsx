@@ -7,11 +7,10 @@
  *  http://www.wtfpl.net/about/ 
  */
 
-var doc = app.activeDocument;  
+var doc = app.activeDocument.activeLayer;  
 
 for (var i = 0; i < doc.layers.length; i++) 
-{
- 
+{ 
           var currentLayerName = doc.layers[i].name;
 
           //currentLayerName = currentLayerName.toLowerCase();
